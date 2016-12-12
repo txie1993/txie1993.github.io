@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-    <script type="text/javascript" src="//use.typekit.net/rws3een.js"></script>
+    <!-- <script type="text/javascript" src="//use.typekit.net/rws3een.js"></script> -->
     <script type="text/javascript">
         try {
             Typekit.load();
@@ -25,35 +25,121 @@
             <div class="background"></div>
             <section name="intro" id="intro" class="wrapper">
                 <h1 class="name">Tony Xie</h1>
-                <h2 class="byline"><a class="btn">Projects</a> | Education | Contact</h2>
+                <h2 class="byline"><a id="projects-btn" class="btn">Projects</a> | <a id="edu-btn" class="btn">Education</a>  | Contact</h2>
             </section>
             <section id="explosion" class="wrapper">
                 <p class="explosion-byline">Here's a sample of what I can bring to the table for your software engineering team.</p>
                 <ul id="domExplosionList">
-                    <li class="dom-explosion-item dei-1"></li>
-                    <li class="dom-explosion-item dei-2"></li>
-                    <li class="dom-explosion-item dei-3"></li>
-                    <li class="dom-explosion-item dei-4"></li>
-                    <li class="dom-explosion-item dei-5"></li>
-                    <li class="dom-explosion-item dei-6"></li>
-                    <li class="dom-explosion-item dei-7"></li>
-                    <li class="dom-explosion-item dei-8"></li>
-                    <li class="dom-explosion-item dei-9"></li>
-                    <li class="dom-explosion-item dei-10"></li>
-                    <li class="dom-explosion-item dei-11"></li>
-                    <li class="dom-explosion-item dei-12"></li>
-                    <li class="dom-explosion-item dei-13"></li>
-                    <li class="dom-explosion-item dei-14"></li>
-                    <li class="dom-explosion-item dei-15"></li>
-                    <li class="dom-explosion-item dei-16"></li>
+                    <li class="dom-explosion-item dei-1 javascript">
+                        <div class="tooltip">
+                            <img class="asset" src="img/js.png">
+                            <span class="tooltiptext">JavaScript</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-2 react">
+                        <div class="tooltip">
+                            <img class="asset" src="img/react.png">
+                            <span class="tooltiptext">React.js</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-3 redux">
+                        <div class="tooltip">
+                            <img class="asset" src="img/redux.png">
+                            <span class="tooltiptext">Redux</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-4 ember">
+                        <div class="tooltip">
+                            <img class="asset" src="img/ember.png">
+                            <span class="tooltiptext">Ember.js</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-5 ruby">
+                        <div class="tooltip">
+                            <img class="asset" src="img/ruby.png">
+                            <span class="tooltiptext">Ruby</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-6 rails">
+                        <div class="tooltip">
+                            <img class="asset" src="img/rails.png">
+                            <span class="tooltiptext">Rails</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-7 rspec">
+                        <div class="tooltip">
+                            <img class="asset" src="img/rspec.png">
+                            <span class="tooltiptext">RSpec</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-8 postgres">
+
+                        <div class="tooltip">
+                            <img class="asset" src="img/postgres.png">
+                            <span class="tooltiptext">PostgreSQL</span>
+                        </div>
+
+                    </li>
+                    <li class="dom-explosion-item dei-9 java">
+                        <div class="tooltip">
+                            <img class="asset" src="img/java.png">
+                            <span class="tooltiptext">Java</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-10 python">
+                        <div class="tooltip">
+                            <img class="asset" src="img/python.png">
+                            <span class="tooltiptext">Python</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-11 jquery">
+                        <div class="tooltip">
+                            <img class="asset" src="img/jquery.png">
+                            <span class="tooltiptext">jQuery</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-12 firebase">
+                        <div class="tooltip">
+                            <img class="asset" src="img/firebase.png">
+                            <span class="tooltiptext">Firebase</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-13 git">
+                        <div class="tooltip">
+                            <img class="asset" src="img/git.png">
+                            <span class="tooltiptext">Git</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-14 html5">
+                        <div class="tooltip">
+                            <img class="asset" src="img/html.png">
+                            <span class="tooltiptext">HTML5</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-15 css3">
+                        <div class="tooltip">
+                            <img class="asset" src="img/css.png">
+                            <span class="tooltiptext">CSS3</span>
+                        </div>
+                    </li>
+                    <li class="dom-explosion-item dei-16 jquery">
+                        <div class="tooltip">
+                            <img class="asset" src="img/php.png">
+                            <span class="tooltiptext">PHP</span>
+                        </div>
+                    </li>
                 </ul>
             </section>
             <section id="projects" class="wrapper">
                 <h1 class="name">Projects</h1>
                 <h2 class="byline">React/Redux | Ember | JavaScript</h2>
+                <!-- <video src="https://res.cloudinary.com/dlflrwsnp/video/upload/ac_none,vc_auto/v1481520066/genkindama_p24mhe.webm" class="byline" autoplay>
+                <video src="https://res.cloudinary.com/dlflrwsnp/video/upload/ac_none,vc_auto/v1481520037/rushhour_muezeq.webm" class="byline" autoplay> -->
             </section>
             <section id="education" class="wrapper">
                 <h1 class="name">Education</h1>
+
+                </video>
             </section>
             <section id="images" class="wrapper">
                 <p class="images-byline">Or better yet, a realistic example of showcasing some design work.</p>

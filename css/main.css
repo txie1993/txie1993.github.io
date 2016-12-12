@@ -94,8 +94,43 @@ body {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-color: #333;
 }
+.java .git {
+  background-color: #fff;
+}
+.asset{
+  width: inherit;
+  height: 60px;
+}
+
+.tooltip {
+  position: relative;
+  width: inherit;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    font-size: 14px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
 .dei-1  { top: 0;   left: 0;  }
 .dei-2  { top: 0;   left: 70px; }
 .dei-3  { top: 0;   left: 140px; }
