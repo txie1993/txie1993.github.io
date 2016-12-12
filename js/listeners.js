@@ -7,9 +7,4 @@ $(document).ready(function(){
       }, 3000);
 
   });
-
-  $('.').appear(function() {
-    alert('Your div is in view');
-  });
-
 });

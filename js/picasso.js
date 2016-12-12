@@ -204,6 +204,46 @@
               }
             ]
           },  {
+            'wrapper' : '#nyu',
+            'duration' : '100%',
+            'animations' :  [
+              {
+                'selector'    : '.edu-info',
+                'translateY'  : [140, 0],
+                'opacity'     : [0,1]
+              }
+            ]
+          } , {
+            'wrapper' : '#nyu',
+            'duration' : '100%',
+            'animations' :  [
+              {
+                'selector'    : '.edu-info',
+                'translateY'  : -140,
+                'opacity'     : 0
+              }
+            ]
+          },  {
+            'wrapper' : '#appacademy',
+            'duration' : '100%',
+            'animations' :  [
+              {
+                'selector'    : '.edu-info',
+                'translateY'  : [140, 0],
+                'opacity'     : [0,1]
+              }
+            ]
+          } , {
+            'wrapper' : '#appacademy',
+            'duration' : '100%',
+            'animations' :  [
+              {
+                'selector'    : '.edu-info',
+                'translateY'  : -140,
+                'opacity'     : 0
+              }
+            ]
+          },  {
             'wrapper' : '#images',
             'duration' : '150%',
             'animations' :  [
@@ -344,7 +384,6 @@
 
     setScrollTops = function() {
       scrollTop = $window.scrollTop();
-      // console.log(scrollTop);
       relativeScrollTop = scrollTop - prevKeyframesDurations;
     }
 

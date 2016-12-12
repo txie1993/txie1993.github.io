@@ -36,6 +36,23 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+#nyu, #appacademy {
+  position: fixed;
+  top: 8%;
+  left: 10%;
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-perspective: 400px;
+  perspective: 400px;
+}
+
+.test{
+  -webkit-transform: rotateX(50deg);
+  transform: rotateX(50deg);
+}
+
 .name {
   font-size: 35px;
   letter-spacing: 12px;
