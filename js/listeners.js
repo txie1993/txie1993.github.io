@@ -17,8 +17,8 @@ $(document).ready(function(){
   $("#contact-scroll").on('click', function(event) {
       event.preventDefault();
       $('html, body').animate({
-        scrollTop: (window.innerHeight)*6
-      }, 3000);
+        scrollTop: (window.innerHeight)*18
+      }, 6000);
 
   });
   $("#redux-scroll").on('click', function(event) {

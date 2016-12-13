@@ -7,8 +7,8 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-image: url('../img/bg2.jpg');
-  background-size: cover;
+  background-image: url('../img/bg2.png');
+  background-repeat: repeat;
   background-position: center;
   text-rendering: optimizeLegibility;
 }
@@ -19,7 +19,7 @@ body {
   right: 10px;
   bottom: 10px;
   left: 10px;
-  border: 1px solid rgba(255,255,255,.2);
+  border: 1px solid rgba(0,0,0,.2);
 }
 .wrapper {
   display: none;
@@ -28,7 +28,7 @@ body {
 
 /* 1. Intro Keyframe
 --------------------------------------- */
-#intro, #projects, #education {
+#intro, #projects, #education, #contact {
   position: fixed;
   top: 48%;
   left: 10%;
@@ -39,7 +39,7 @@ body {
 }
 #genkin, #rush, #lambda {
   position: fixed;
-  top: 18%;
+  top: 8%;
   left: 10%;
   width: 80%;
   color: #fff;
@@ -57,11 +57,11 @@ body {
 }
 
 i{
-  color: #c9c9c9;
+  color: black;
 }
 
 i:hover{
-  color: white;
+  color: #383838;
 }
 
 
@@ -71,7 +71,7 @@ video{
 }
 
 video:hover{
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .project {
@@ -84,10 +84,13 @@ video:hover{
 
 .project h1 {
   font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 .project h5{
   font-family: 'Lato', sans-serif;
+  color: black;
+
 }
 
 .side{
@@ -103,17 +106,21 @@ video:hover{
 
 .scroller{
   text-decoration: none;
-  color: white;
+  color: black;
+
   cursor: pointer;
 }
 
 .scroller:hover {
   text-decoration: underline;
-  color: white;
+  color: black;
+
 }
 
 .name {
   font-family: 'Montserrat', sans-serif;
+  color: black;
+
   font-size: 35px;
   letter-spacing: 12px;
   line-height: 1.5;
@@ -140,6 +147,7 @@ video:hover{
 
 .edu-info{
   width: 40%;
+  color: black;
 }
 
 .edu-info img{
@@ -147,6 +155,25 @@ video:hover{
 }
 .edu-info h4{
   font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  color: black;
+}
+
+.contact-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  color: black;
+  margin: 5px;
 }
 
 /* 2. Explosion/Images/Links Structure and Text
@@ -161,6 +188,7 @@ video:hover{
 .explosion-byline,
 .images-byline {
   font-family: 'Montserrat', sans-serif;
+  color: black !important;
   font-size: 2em;
   position: fixed;
   top: 63%;
@@ -310,8 +338,8 @@ video:hover{
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  border: 1px solid rgba(255,255,255,.5);
-  color: rgba(255,255,255,.8);
+  border: 1px solid rgba(0,0,0,.5);
+  color: rgba(0,0,0,.8);
   font-size: 12px;
   font-weight: 900;
   text-decoration: none;
@@ -322,8 +350,8 @@ video:hover{
 }
 .btn:hover,
 .btn:focus {
-  color: #fff;
-  border-color: #fff;
+  color: #383838;
+  border-color: #383838;
 }
 .twitter {
   position: fixed;

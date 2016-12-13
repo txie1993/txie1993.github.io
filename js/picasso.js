@@ -284,34 +284,15 @@
                 'opacity'     : 0
               }
             ]
-          },  {
-            'wrapper' : '#images',
-            'duration' : '150%',
-            'animations' :  [
-              {
-                'selector'    : '.images-byline',
-                'translateY'  : '-25%',
-                'opacity'     : [0, 1.75] // hack to accelrate opacity speed
-              } , {
-                'selector'    : '#mediumHomepage',
-                'translateY'  : '-90%'
-              } , {
-                'selector'    : '.iphone',
-                'translateY'  : '-66%'
-              }
-            ]
           } , {
 
-            'wrapper' : '#links',
+            'wrapper' : '#contact',
             'duration' : '100%',
             'animations' :  [
               {
-                'selector'    : '#links',
+                'selector'    : '.contact-container',
                 'opacity'     : [0, 2],
                 'scale'       : [.8, 1]
-              } , {
-                'selector'    : '.twitter',
-                'opacity'     : [0, 1]
               }
             ]
           } , {
