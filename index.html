@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
     <script src="https://use.fontawesome.com/59adb9cc56.js"></script>
     <!-- <script type="text/javascript" src="//use.typekit.net/rws3een.js"></script> -->
     <script type="text/javascript">
@@ -26,7 +27,7 @@
             <div class="background"></div>
             <section name="intro" id="intro" class="wrapper">
                 <h1 class="name">Tony Xie</h1>
-                <h2 class="byline"><a id="projects-btn" class="btn">Projects</a> | <a id="edu-btn" class="btn">Education</a>  | Contact</h2>
+                <h2 class="byline"><a id="projects-scroll" class="scroller">Projects</a> | <a class="scroller" id="edu-scroll">Education</a>  | <a class="scroller"id="contact-scroll">Contact</a></h2>
             </section>
             <section id="explosion" class="wrapper">
                 <p class="explosion-byline">Here's a sample of what I can bring to the table for your software engineering team.</p>
@@ -133,7 +134,7 @@
             </section>
             <section id="projects" class="wrapper">
                 <h1 class="name">Projects</h1>
-                <h2 class="byline">React/Redux | Ember | JavaScript</h2>
+                <h2 class="byline"><a id="redux-scroll" class="scroller">React/Redux</a> | <a class="scroller" id="ember-scroll">Ember</a>  | <a class="scroller"id="js-scroll">JavaScript</a></h2>
 
             </section>
             <section id="genkin" class="wrapper">
@@ -181,22 +182,24 @@
             <section id="education" class="wrapper">
               <h1 class="name">Education</h1>
             </section>
-            <section id="nyu" class="wrapper">
-            <div class="edu-info">
+            <section id="schools" class="wrapper">
+              <div class="school-container">
+
+            <div class="edu-info nyu">
               <img class="test" src="img/nyulogo.jpg" alt="">
               <h3>New York University, 2015</h3>
               <h4>BA Linguistics, Minors: Computer Science, Web Development, Japanese</h4>
             </div>
-          </section>
-            <section id="appacademy" class="wrapper">
-              <div class="edu-info">
-                <img src="img/aalogo.png" alt="">
-                <h3>App Academy, SF, 2016</h3>
-                <h4>Ruby, Ruby on Rails, JavaScript, React, Redux, Ember</h4>
 
-              </div>
-            </section>
-            <section id="images" class="wrapper">
+            <div class="edu-info aa">
+              <img src="img/aalogo.png" alt="">
+              <h3>App Academy SF, 2016</h3>
+              <h4>Ruby, Ruby on Rails, JavaScript, React, Redux, Ember</h4>
+            </div>
+
+          </div>
+          </section>
+            <!-- <section id="images" class="wrapper">
                 <p class="images-byline">Or better yet, a realistic example of showcasing some design work.</p>
                 <p class="images-byline-2">Really, anything is possible &hellip;</p>
                 <img id="mediumHomepage" class="raw-page" src="img/oversized-raw-homepage.jpg">
@@ -207,7 +210,7 @@
                         <img id="davegamache-dot-com" class="iphone-content" src="img/davegamache-rotated.jpg">
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- <section id="links">
               <div class="icons">
   <div class="refresh">

@@ -265,41 +265,21 @@
               }
             ]
           },  {
-            'wrapper' : '#nyu',
+            'wrapper' : '#schools',
             'duration' : '100%',
             'animations' :  [
               {
-                'selector'    : '.edu-info',
+                'selector'    : '.school-container',
                 'translateY'  : [140, 0],
                 'opacity'     : [0,1]
               }
             ]
           } , {
-            'wrapper' : '#nyu',
+            'wrapper' : '#schools',
             'duration' : '100%',
             'animations' :  [
               {
-                'selector'    : '.edu-info',
-                'translateY'  : -140,
-                'opacity'     : 0
-              }
-            ]
-          },  {
-            'wrapper' : '#appacademy',
-            'duration' : '100%',
-            'animations' :  [
-              {
-                'selector'    : '.edu-info',
-                'translateY'  : [140, 0],
-                'opacity'     : [0,1]
-              }
-            ]
-          } , {
-            'wrapper' : '#appacademy',
-            'duration' : '100%',
-            'animations' :  [
-              {
-                'selector'    : '.edu-info',
+                'selector'    : '.school-container',
                 'translateY'  : -140,
                 'opacity'     : 0
               }

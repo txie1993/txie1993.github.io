@@ -1,6 +1,7 @@
 body {
   background: #111;
   font-weight: 300;
+  font-family: 'Lato', sans-serif;
 }
 .background {
   position: fixed;
@@ -45,6 +46,25 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+#schools {
+  position: fixed;
+  top: 35%;
+  left: 10%;
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+i{
+  color: #c9c9c9;
+}
+
+i:hover{
+  color: white;
+}
+
+
 
 video{
   border: 3px solid rgba(0, 0, 0, 0);
@@ -62,6 +82,14 @@ video:hover{
   perspective: 400px;
 }
 
+.project h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project h5{
+  font-family: 'Lato', sans-serif;
+}
+
 .side{
   margin-top: 25%;
 
@@ -73,29 +101,26 @@ video:hover{
   transform: rotateY(-10deg) !important;
 }
 
-#nyu, #appacademy {
-  position: fixed;
-  top: 8%;
-  left: 10%;
-  width: 80%;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-perspective: 400px;
-  perspective: 400px;
+.scroller{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
-.test{
-
+.scroller:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .name {
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   letter-spacing: 12px;
   line-height: 1.5;
   font-weight: 900;
 }
 .byline {
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   letter-spacing: 4px;
   text-align: center;
@@ -104,6 +129,24 @@ video:hover{
 .ampersand {
   font-family: "Adobe Caslon Pro", "brandon-grotesque";
   font-style: italic;
+}
+
+.school-container{
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.edu-info{
+  width: 40%;
+}
+
+.edu-info img{
+  width: 250px;
+}
+.edu-info h4{
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* 2. Explosion/Images/Links Structure and Text
@@ -117,6 +160,8 @@ video:hover{
 }
 .explosion-byline,
 .images-byline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
   position: fixed;
   top: 63%;
   left: 25%;
