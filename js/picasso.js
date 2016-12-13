@@ -187,13 +187,9 @@
             'wrapper' : '#genkin',
             'duration' : '100%',
             'animations' :  [
-              {
-                'selector'    : '.name',
+               {
+                'selector'    : '.project',
                 'translateY'  : [140, 0],
-                'opacity'     : [0,1]
-              } , {
-                'selector'    : '.project-demo',
-                'translateY'  : [110, 0],
                 'opacity'     : [0,1]
               }
             ]
@@ -202,12 +198,8 @@
             'duration' : '100%',
             'animations' :  [
               {
-                'selector'    : '.name',
+                'selector'    : '.project',
                 'translateY'  : -140,
-                'opacity'     : 0
-              } , {
-                'selector'    : '.project-demo',
-                'translateY'  : -110,
                 'opacity'     : 0
               }
             ]
@@ -215,13 +207,9 @@
             'wrapper' : '#lambda',
             'duration' : '100%',
             'animations' :  [
-              {
-                'selector'    : '.name',
+               {
+                'selector'    : '.project',
                 'translateY'  : [140, 0],
-                'opacity'     : [0,1]
-              } , {
-                'selector'    : '.project-demo',
-                'translateY'  : [110, 0],
                 'opacity'     : [0,1]
               }
             ]
@@ -230,12 +218,8 @@
             'duration' : '100%',
             'animations' :  [
               {
-                'selector'    : '.name',
+                'selector'    : '.project',
                 'translateY'  : -140,
-                'opacity'     : 0
-              } , {
-                'selector'    : '.project-demo',
-                'translateY'  : -110,
                 'opacity'     : 0
               }
             ]
@@ -243,14 +227,10 @@
             'wrapper' : '#rush',
             'duration' : '100%',
             'animations' :  [
-              {
-                'selector'    : '.name',
+               {
+                'selector'    : '.project',
                 'translateY'  : [140, 0],
                 'opacity'     : [0,1]
-              } , {
-                'selector'    : '.project-demo',
-                'translateY'  : [110, 0],
-                'opacity'     : [0,1]
               }
             ]
           } , {
@@ -258,16 +238,13 @@
             'duration' : '100%',
             'animations' :  [
               {
-                'selector'    : '.name',
+                'selector'    : '.project',
                 'translateY'  : -140,
-                'opacity'     : 0
-              } , {
-                'selector'    : '.project-demo',
-                'translateY'  : -110,
                 'opacity'     : 0
               }
             ]
           } , {
+
             'wrapper' : '#education',
             'duration' : '100%',
             'animations' :  [
