@@ -33,6 +33,7 @@ body {
 --------------------------------------- */
 
 #intro, #projects, #education, #contact {
+<<<<<<< HEAD
     position: fixed;
     top: 48%;
     left: 10%;
@@ -40,6 +41,15 @@ body {
     color: #000;
     text-align: center;
     text-transform: uppercase;
+=======
+  position: fixed;
+  top: 48%;
+  left: 10%;
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+>>>>>>> parent of df74697... changed pipes to black
 }
 
 #genkin, #rush, #lambda {
