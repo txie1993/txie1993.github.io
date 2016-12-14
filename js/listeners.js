@@ -11,14 +11,14 @@ $(document).ready(function(){
       event.preventDefault();
       $('html, body').animate({
         scrollTop: (window.innerHeight)*14
-      }, 4000);
+      }, 6000);
 
   });
   $("#contact-scroll").on('click', function(event) {
       event.preventDefault();
       $('html, body').animate({
         scrollTop: (window.innerHeight)*18
-      }, 6000);
+      }, 9000);
 
   });
   $("#redux-scroll").on('click', function(event) {
