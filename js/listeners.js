@@ -18,7 +18,7 @@ $(document).ready(function(){
       event.preventDefault();
       $('html, body').animate({
         scrollTop: (window.innerHeight)*18
-      }, 9000);
+      }, 9 000);
 
   });
   $("#redux-scroll").on('click', function(event) {
