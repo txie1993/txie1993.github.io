@@ -72,6 +72,7 @@ i:hover {
 
 video {
     border: 3px solid rgba(0, 0, 0, 0);
+    z-index: 9999999;
 }
 
 video:hover {
