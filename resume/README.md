@@ -17,7 +17,7 @@ SF Bay Area, CA (Open to Remote) | tony@tonyxie.co  | linkedin.com/in/tianyi-xie
 - Internationalization (i18n)
 - Localization (l10n)
 - Spoken Languages:  
-    - English (primary), 
+    - English (primary)
     - Japanese (N1 equivalent)
     - Mandarin Chinese (Heritage)
     - French (Elementary)
