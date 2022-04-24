@@ -4,9 +4,9 @@ Software Engineer Seeking Senior Fullstack Role in Mission-Driven Company
 SF Bay Area, CA (Open to Remote) 
 
 # Contact
-- tony@tonyxie.co
-- linkedin.com/in/tianyi-xie
-- github.com/txie1993
+- [Email](tony@tonyxie.co)
+- [LinkedIn](https://linkedin.com/in/tianyi-xie)
+- [GitHub](https://github.com/txie1993)
 
 
 ## Skills
