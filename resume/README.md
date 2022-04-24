@@ -10,11 +10,11 @@ SF Bay Area, CA (Open to Remote)
 
 
 ## Skills
-- Backend: 
+- **Backend:**
     - Python
     - Ruby
     - SQL
-- Frontend: 
+- **Frontend:**
     - JavaScript (ES6)
     - Backbone
     - React
@@ -22,7 +22,7 @@ SF Bay Area, CA (Open to Remote)
 - Google Cloud Platform: AppEngine, Compute Engine, Cloud Storage, BigQuery, and others
 - Internationalization (i18n)
 - Localization (l10n)
-- Spoken Languages:  
+- **Spoken Languages:**  
     - English (primary)
     - Japanese (N1 equivalent)
     - Mandarin Chinese (Heritage)
@@ -51,10 +51,10 @@ SF Bay Area, CA (Open to Remote)
 - Implemented user side OAuth integration with external partner Epic Games, allowing users to claim purchased content using an external account
 
 # Projects and Contributions
-- Project Clippi (2021) - Aided in JavaScript testing and debugging for an Electron data processing application.
-- IRC Theme for Facebook Messenger (2019) - Provided a SCSS fix for unreadable text in Facebook Messenger.
-- Mallard (2017) - A voice controlled chat bot built with Node, discord.js, and Google Cloud.
-- Kitsu.io (2016) - Open Source contribution to early stage startup, Kitsu.io, to help display business user end data.
+- [Project Clippi](https://github.com/vinceau/project-clippi) (2021) - Aided in JavaScript testing and debugging for an Electron data processing application.
+- [IRC Theme for Facebook Messenger](https://chrome.google.com/webstore/detail/irc-inspired-theme-for-fa/jkocbkfbiljhcdjopoeijnhnichhpefb?hl=en) (2019) - Provided a SCSS fix for unreadable text in Facebook Messenger.
+- [Mallard](https://github.com/txie1993/mallard) (2017) - A voice controlled chat bot built with Node, discord.js, and Google Cloud.
+- [Kitsu.io](https://kitsu.io/) (2016) - Open Source contribution to early stage startup, Kitsu.io, to help display business user end data.
 
 # Education
 New York University - BA Linguistics, Computer Science, Web Development
